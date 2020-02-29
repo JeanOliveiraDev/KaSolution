@@ -7,9 +7,10 @@ namespace LABOO.Model
     /*
      * Modificadores
         Class - Internal / Public
+        Classes abstradas: só podem ser herdadas e nunca instanciadas
     */
 
-    public class Cafe
+    public abstract class Cafe
     {
         //Caracteristicas
         public string Tipo { get; set; }
@@ -21,5 +22,12 @@ namespace LABOO.Model
         {
             return $"{graus}º";
         }
+
+        public virtual string ModoPreparo()
+        {
+            return "Filtro de Papel";
+        }
+
+        public abstract string ModoDeServir();        
     }
 }

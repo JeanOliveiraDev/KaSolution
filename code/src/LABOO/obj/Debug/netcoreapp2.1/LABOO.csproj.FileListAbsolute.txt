@@ -1,0 +1,11 @@
+C:\Users\Administrator\source\repos\LABS\code\src\LABOO\obj\Debug\netcoreapp2.1\LABOO.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\LABS\code\src\LABOO\obj\Debug\netcoreapp2.1\LABOO.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\LABS\code\src\LABOO\obj\Debug\netcoreapp2.1\LABOO.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\LABS\code\src\LABOO\obj\Debug\netcoreapp2.1\LABOO.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\LABS\code\src\LABOO\bin\Debug\netcoreapp2.1\LABOO.deps.json
+C:\Users\Administrator\source\repos\LABS\code\src\LABOO\bin\Debug\netcoreapp2.1\LABOO.runtimeconfig.json
+C:\Users\Administrator\source\repos\LABS\code\src\LABOO\bin\Debug\netcoreapp2.1\LABOO.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\LABS\code\src\LABOO\bin\Debug\netcoreapp2.1\LABOO.dll
+C:\Users\Administrator\source\repos\LABS\code\src\LABOO\bin\Debug\netcoreapp2.1\LABOO.pdb
+C:\Users\Administrator\source\repos\LABS\code\src\LABOO\obj\Debug\netcoreapp2.1\LABOO.dll
+C:\Users\Administrator\source\repos\LABS\code\src\LABOO\obj\Debug\netcoreapp2.1\LABOO.pdb
