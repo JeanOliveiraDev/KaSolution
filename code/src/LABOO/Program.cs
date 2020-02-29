@@ -18,11 +18,11 @@ namespace LABOO
             cafe = new CafeCaseiro();
             Console.WriteLine(cafe.ModoDeServir());
 
-            Console.ReadKey();
-
             //Polimorfismo
             //Encapsulamento
-            //Sobrecarga     -- OK                        
+            //Sobrecarga     -- OK        
+
+            Console.ReadKey();
         }
     }
 }
