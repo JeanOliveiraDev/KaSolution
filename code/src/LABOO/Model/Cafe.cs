@@ -28,6 +28,8 @@ namespace LABOO.Model
             return "Filtro de Papel";
         }
 
-        public abstract string ModoDeServir();        
+        public abstract string ModoDeServir();
+
+        public abstract void Formula();
     }
 }

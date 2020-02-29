@@ -15,5 +15,10 @@ namespace LABOO.Model
         {
             return "Copo de vidro";
         }
+
+        public override void Formula()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

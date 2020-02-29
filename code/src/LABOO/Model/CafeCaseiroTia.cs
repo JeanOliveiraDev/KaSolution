@@ -4,16 +4,12 @@ using System.Text;
 
 namespace LABOO.Model
 {
-    public class CafeCaseiro : Cafe
+    //Sealed classe fechada para herança
+    public sealed class CafeCaseiroTia : CafeCaseiro
     {
         public override string ModoDeServir()
         {
-            return "Na xicara";
-        }
-
-        public sealed override void Formula()
-        {
-            string formula = "";
+            return base.ModoDeServir();
         }
     }
 }
