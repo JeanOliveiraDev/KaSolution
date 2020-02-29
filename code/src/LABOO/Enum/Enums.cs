@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LABOO.Enum
 {
-    class Enuns
+    class Enums
     {
     }
 }
