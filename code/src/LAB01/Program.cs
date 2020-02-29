@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace LAB01
 {
@@ -7,8 +8,8 @@ namespace LAB01
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            
-            //Concatenação
+
+            #region Concatenação           
             string resultado;
             var data = DateTime.Now;
 
@@ -18,18 +19,25 @@ namespace LAB01
             resultado = $"Hora: {data.ToString("dd/MM/yyyy HH:mm")}";
 
             Console.WriteLine(resultado);
+            #endregion
 
-            //Operadores
-            int num, num2; 
+            #region Operadores            
+            /*int num, num2; 
             Console.WriteLine("Digite um número: ");
             num = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Digite outro número");
             num2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"O resultado da soma é: {num + num2}");
+            Console.WriteLine($"O resultado da soma é: {num + num2}");*/
+            #endregion
+
+            #region Regex
+            /*string rResultado = "tresdasda{12316a} tesasdas a{222222}asdasdasd";
+            MatchCollection regex = Regex.Matches(rResultado, @"\{(\w)*\}");
+            Console.WriteLine($"{regex[0]} - {regex[1]}");*/
+            #endregion
 
             Console.ReadKey();
-
         }
     }
 }

@@ -20,3 +20,4 @@ C:\Users\Administrator\source\repos\LABS\code\src\LAB01\obj\Debug\netcoreapp2.1\
 C:\Users\Administrator\source\repos\LABS\code\src\LAB01\obj\Debug\netcoreapp2.1\LAB01.dll
 C:\Users\Administrator\source\repos\LABS\code\src\LAB01\obj\Debug\netcoreapp2.1\LAB01.pdb
 C:\Users\Administrator\source\repos\LABS\code\src\LAB01\obj\Debug\netcoreapp2.1\LAB01.sourcelink.json
+C:\Users\Administrator\source\repos\LABS\code\src\LAB01\obj\Debug\netcoreapp2.1\LAB01.csprojAssemblyReference.cache
