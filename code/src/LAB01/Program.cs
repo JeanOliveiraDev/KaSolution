@@ -4,9 +4,9 @@ using System.Text.RegularExpressions;
 namespace LAB01
 {
     class Program
-    {
+    {        
         static void Main(string[] args)
-        {
+        {            
             Console.WriteLine("Hello World!");
 
             #region Concatenação           
@@ -21,14 +21,16 @@ namespace LAB01
             Console.WriteLine(resultado);
             #endregion
 
-            #region Operadores            
-            /*int num, num2; 
-            Console.WriteLine("Digite um número: ");
-            num = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Digite outro número");
-            num2 = Convert.ToInt32(Console.ReadLine());
+            #region Operadores   
+            /*int num1, num2, num3;            
 
-            Console.WriteLine($"O resultado da soma é: {num + num2}");*/
+            Console.WriteLine("Digite um número: ");
+            int.TryParse(Console.ReadLine(), out num1);            
+
+            Console.WriteLine("Digite outro número");            
+            int.TryParse(Console.ReadLine(), out num2);
+
+            Console.WriteLine(RealizarSoma(ref num1, ref num2));*/
             #endregion
 
             #region Regex
@@ -39,5 +41,24 @@ namespace LAB01
 
             Console.ReadKey();
         }
+
+        #region RealizarSoma
+        static void RealizarSomaOut(ref int num1, ref int num2, out int soma)
+        {
+            soma = num1 + num2;
+        }
+
+        static int RealizarSoma(ref int num1, ref int num2)
+        {
+            var soma = num1 + num2;
+            return soma;
+        }
+
+        static int RealizarSoma(ref int num1, ref int num2, ref int num3, string msg = null)
+        {
+            var soma = RealizarSoma(ref num1, ref num2) + num3;
+            return soma;
+        }
+        #endregion        
     }
 }
