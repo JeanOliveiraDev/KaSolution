@@ -6,12 +6,19 @@ namespace LAB03.Model
 {
     public class Radar
     {
+        public Radar(bool isMovel, string via, int limiteVelocidadePermitida)
+        {
+            IsMovel = isMovel;
+            Via = via;
+            LimiteVelocidadePermitida = limiteVelocidadePermitida;
+        }
+
         public delegate void VelocidadeExcedide(string placa, int velocidade, string via);
         public event VelocidadeExcedide EventoGerarMulta;
 
-        public bool IsMovel { get; set; }
-        public string Via { get; set; }
-        public int LimiteVelocidadePermitida { get; set; }    
+        public bool IsMovel { get; private set; }
+        public string Via { get; private set; }
+        public int LimiteVelocidadePermitida { get; private set; }    
 
         public virtual void Multar(string placa, int km, string via)
         {

@@ -20,10 +20,8 @@ namespace LAB03
 
         private static void Eventos()
         {
-            Radar radarSP = new Radar();
-            radarSP.IsMovel = false;
-            radarSP.LimiteVelocidadePermitida = 50;
-            radarSP.Via = "Av. dos Bandeirantes, 655";
+            Radar radarSP = new Radar(false, "Av. dos Bandeirantes, 655", 50);
+
             radarSP.EventoGerarMulta += RadarSP_EventoGerarMulta;
 
             while (true)
