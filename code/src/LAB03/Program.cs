@@ -1,6 +1,8 @@
-﻿using System;
+﻿using LAB03.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 
 namespace LAB03
 {
@@ -8,8 +10,42 @@ namespace LAB03
     {
         static void Main(string[] args)
         {
-            Filas();  
+            //Listas();
+            //Filas();
+            //Dicionario();
+            Eventos();
+
             Console.ReadKey();
+        }
+
+        private static void Eventos()
+        {
+            Radar radarSP = new Radar();
+            radarSP.IsMovel = false;
+            radarSP.LimiteVelocidadePermitida = 50;
+            radarSP.Via = "Av. dos Bandeirantes, 655";
+            radarSP.EventoGerarMulta += RadarSP_EventoGerarMulta;
+
+            while (true)
+            {
+                Random placa = new Random();
+                Random velocidade = new Random();
+                string placaCarro = $"AAA-{placa.Next(0, 9999).ToString().PadLeft(4,'0')}"; 
+
+                int velocidadeCarro = velocidade.Next(30, 60);
+
+                if (!radarSP.ValidarVelocidade(velocidadeCarro, placaCarro, radarSP.Via))
+                {
+                    Console.WriteLine($"{placaCarro} - {velocidadeCarro}");
+                }                               
+
+                Thread.Sleep(2000);
+            }
+        }
+
+        private static void RadarSP_EventoGerarMulta(string placa, int velocidade, string via)
+        {
+            Console.WriteLine($"$Multa SP {velocidade} + {placa} + {via}");
         }
 
         private static void Filas()
@@ -58,7 +94,7 @@ namespace LAB03
             pessoas.Add(nova);
 
             nova = new Pessoa();
-            nova.Nome = "Bruno Viado";
+            nova.Nome = "Bruno Gomes";
             nova.Idade = 32;
             pessoas.Add(nova);
 
@@ -67,12 +103,12 @@ namespace LAB03
             foreach (Pessoa item in pessoas)
             {
                 Console.WriteLine(item.Nome);
-            }            
+            }
 
             //Filtro do primeiro com a menor idade
             Pessoa pessoaMaisNova = (from A in pessoas
                                      orderby A.Idade descending
-                                     select A).First();            
+                                     select A).First();
 
             //Filtro para trazer pessoas com a letra A
             List<Pessoa> comLetraA = (from A in pessoas
