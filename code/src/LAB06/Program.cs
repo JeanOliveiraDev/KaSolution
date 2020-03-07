@@ -24,7 +24,7 @@ namespace LAB06
         {
             using (StreamReader reader = new StreamReader(arquivo))
             {
-                string texto = reader.ReadToEnd();
+                //string texto = reader.ReadToEnd();
 
                 while (reader.Peek() >= 0)
                 {
