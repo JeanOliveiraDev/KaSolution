@@ -9,6 +9,7 @@ namespace Despesas.Dominio
         public List<Politica> Politicas { get; set; }
         public DateTime DataInicio { get; set; }
         public DateTime DataTermino { get; set; }
+        public List<Consultor> Consultores { get; set; }
         public Consultor Responsavel { get; set; }
         public string Descricao { get; set; }
     }
