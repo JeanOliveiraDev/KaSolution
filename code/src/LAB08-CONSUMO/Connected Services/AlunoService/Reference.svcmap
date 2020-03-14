@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3adc7e74-6704-4d9d-8ac5-f616bb8ffb18" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51755/AlunoService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AlunoService.xsd" MetadataType="Schema" ID="2472881e-1c3c-463d-a803-ae523488c057" SourceId="1" SourceUrl="http://localhost:51755/AlunoService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AlunoService.wsdl" MetadataType="Wsdl" ID="2f8b0b04-f5cf-409b-afa6-d1c335e04a94" SourceId="1" SourceUrl="http://localhost:51755/AlunoService.svc?wsdl" />
+    <MetadataFile FileName="AlunoService.disco" MetadataType="Disco" ID="1e5e73b3-0b05-474d-b76f-16144a5fce27" SourceId="1" SourceUrl="http://localhost:51755/AlunoService.svc?disco" />
+    <MetadataFile FileName="AlunoService1.xsd" MetadataType="Schema" ID="035456f3-8bc8-43af-8291-848adedd4dd9" SourceId="1" SourceUrl="http://localhost:51755/AlunoService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AlunoService2.xsd" MetadataType="Schema" ID="bacc2cc9-ab08-4136-8f18-83742253afe4" SourceId="1" SourceUrl="http://localhost:51755/AlunoService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,10 @@
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\bin\Debug\LAB08-CONSUMO.exe.config
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\bin\Debug\LAB08-CONSUMO.exe
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\bin\Debug\LAB08-CONSUMO.pdb
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08-CONSUMO.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08_CONSUMO.Form1.resources
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08_CONSUMO.Properties.Resources.resources
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08-CONSUMO.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08-CONSUMO.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08-CONSUMO.exe
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08-CONSUMO.pdb

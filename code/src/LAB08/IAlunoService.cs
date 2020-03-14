@@ -12,7 +12,7 @@ namespace LAB08
     [ServiceContract]
     public interface IAlunoService
     {
-        [OperationContract]
+        [OperationContract(IsOneWay = true)]
         void AddStudent(Aluno student);
 
         [OperationContract]

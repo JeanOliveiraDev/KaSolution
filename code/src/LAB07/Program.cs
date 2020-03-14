@@ -12,11 +12,11 @@ namespace LAB07
 
         static void Main(string[] args)
         {
-            //CriarAluno("","");
+            CriarAluno("", "");
             //CriarDesempenho();
             //ConsultarAluno();
 
-            AlterarNota(9.9m, "1", "123.123.123-10", "Matematica");
+            //AlterarNota(9.9m, "1", "123.123.123-10", "Matematica");
 
             Console.ReadKey();
         }
@@ -108,7 +108,7 @@ namespace LAB07
             }
         }
 
-        public void CriarAluno(string cpf, string nome)
+        public static void CriarAluno(string cpf, string nome)
         {
             Aluno aluno = new Aluno()
             {
