@@ -13,10 +13,21 @@ namespace LAB07
         static void Main(string[] args)
         {
             //CriarAluno("","");
-            CriarDesempenho();
-            ConsultarAluno();
+            //CriarDesempenho();
+            //ConsultarAluno();
+
+            AlterarNota(9.9m, "1", "123.123.123-10", "Matematica");
 
             Console.ReadKey();
+        }
+
+        private static void AlterarNota(decimal nota, string bimeste, string cpf, string materia)
+        {           
+            var desempenho = contexto.Desempenho.Where(x => x.Aluno.CPF == cpf 
+                                && x.Materia == materia 
+                                && x.Bimestre == bimeste).FirstOrDefault();
+            desempenho.Nota = nota;
+            contexto.SaveChanges();
         }
 
         private static void CriarDesempenho()
@@ -62,7 +73,7 @@ namespace LAB07
             contexto.SaveChanges();
         }
 
-        private static void ConsultarAluno()
+        public void ConsultarAluno()
         {
             //contexto.Database.Log = Console.WriteLine;
             contexto.Configuration.LazyLoadingEnabled = true;
@@ -77,7 +88,7 @@ namespace LAB07
                 foreach (var item in anoLetivo)
                 {
                     Console.WriteLine(item.Ano);
-                    Console.WriteLine("1º BIM \t\t 2º BIM");
+                    Console.WriteLine($"{"Materia", 15} {"1º BIM", 6} {"2º BIM", 6}");
                     var notas1 = aluno.Desempenho.Where(anoConsulta => anoConsulta.Ano == item.Ano)
                         .GroupBy(g => g.Materia).Select(x => new
                     {
@@ -91,13 +102,13 @@ namespace LAB07
                         var n1 = (x.PrimeiroB != null) ? x.PrimeiroB.Nota : 0;
                         var n2 = (x.PrimeiroB != null) ? x.PrimeiroB.Nota : 0;
 
-                        Console.WriteLine($"{x.Materia} \t\t {x.PrimeiroB.Nota} \t {x.SegundoB.Nota}");
+                        Console.WriteLine($"{x.Materia, 15} {x.PrimeiroB.Nota, 6} {x.SegundoB.Nota, 6}");                        
                     }
                 }
             }
         }
 
-        private static void CriarAluno(string cpf, string nome)
+        public void CriarAluno(string cpf, string nome)
         {
             Aluno aluno = new Aluno()
             {

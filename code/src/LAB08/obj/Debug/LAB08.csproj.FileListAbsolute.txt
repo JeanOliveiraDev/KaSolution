@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\bin\LAB08.dll.config
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\bin\LAB08.dll
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\bin\LAB08.pdb
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\bin\LAB07.exe
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\bin\EntityFramework.dll
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\bin\LAB07.pdb
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\bin\LAB07.exe.config
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\bin\EntityFramework.xml
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\obj\Debug\LAB08.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\obj\Debug\LAB08.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\obj\Debug\LAB08.csproj.CopyComplete
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\obj\Debug\LAB08.dll
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\obj\Debug\LAB08.pdb
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08\bin\EntityFramework.SqlServer.xml
