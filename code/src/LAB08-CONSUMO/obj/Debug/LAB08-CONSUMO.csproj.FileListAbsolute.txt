@@ -8,3 +8,9 @@ C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08-
 C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08-CONSUMO.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08-CONSUMO.exe
 C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08-CONSUMO.pdb
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\bin\Debug\LAB07.exe
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\bin\Debug\LAB07.pdb
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\bin\Debug\LAB07.exe.config
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\source\repos\LABS\code\src\LAB08-CONSUMO\obj\Debug\LAB08-CONSUMO.csproj.CopyComplete

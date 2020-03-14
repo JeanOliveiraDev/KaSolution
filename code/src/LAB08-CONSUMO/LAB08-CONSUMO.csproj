@@ -120,5 +120,11 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LAB07\LAB07.csproj">
+      <Project>{90951A5C-556B-4404-9636-574AB4BFCEAC}</Project>
+      <Name>LAB07</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LAB08_CONSUMO.AlunoService;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,19 @@ namespace LAB08_CONSUMO
         private void PreencherLista()
         {
             AlunoService.AlunoServiceClient client = new AlunoService.AlunoServiceClient();
+
+            dataGridView1.DataSource = client.GetAlunos(true);
+        }
+
+        private void btnAddAluno_Click(object sender, EventArgs e)
+        {
+            AlunoServiceClient client = new AlunoServiceClient();
+
+            Aluno aluno = new Aluno();
+            aluno.CPF = textBoxCPF.Text;
+            aluno.Nome = textBoxNome.Text;
+
+            client.AddStudent(aluno);
 
             dataGridView1.DataSource = client.GetAlunos(true);
         }
