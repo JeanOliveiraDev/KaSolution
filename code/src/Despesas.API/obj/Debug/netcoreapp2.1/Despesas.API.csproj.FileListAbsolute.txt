@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\bin\Debug\netcoreapp2.1\Despesas.API.deps.json
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\bin\Debug\netcoreapp2.1\Despesas.API.runtimeconfig.json
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\bin\Debug\netcoreapp2.1\Despesas.API.runtimeconfig.dev.json
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\bin\Debug\netcoreapp2.1\Despesas.API.dll
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\bin\Debug\netcoreapp2.1\Despesas.API.pdb
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\obj\Debug\netcoreapp2.1\Despesas.API.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\obj\Debug\netcoreapp2.1\Despesas.API.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\obj\Debug\netcoreapp2.1\Despesas.API.RazorAssemblyInfo.cache
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\obj\Debug\netcoreapp2.1\Despesas.API.RazorAssemblyInfo.cs
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\obj\Debug\netcoreapp2.1\Despesas.API.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\obj\Debug\netcoreapp2.1\Despesas.API.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\obj\Debug\netcoreapp2.1\Despesas.API.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\obj\Debug\netcoreapp2.1\Despesas.API.dll
+C:\Users\Administrator\source\repos\LABS\code\src\Despesas.API\obj\Debug\netcoreapp2.1\Despesas.API.pdb
